@@ -1,0 +1,305 @@
+/**mis fuentes**/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Titillium+Web:ital,wght@1,200&display=swap');
+
+/*mobile first*/
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/**estilos header**/
+
+.tituloNosotros{ 
+    color: rgb(28, 80, 125);
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    border: 2px solid rgb(28, 80, 125);
+
+}
+
+/**barra de navegacion **/
+header{
+    background-color: white;
+
+}
+body{
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    width: 100;
+    justify-content: center;
+}
+nav ul li a{
+    margin-top: 60px;
+    display: flex;
+    font-size: 21px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color:rgb(28, 80, 125);
+    font-family: 'Inconsolata', monospace;
+    justify-content: center;
+
+
+}
+
+li{
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.capsule{
+    padding-right: 300px;
+    padding-bottom: 0px;
+
+}
+
+
+
+.letras{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+
+}
+
+h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: rgb(28, 80, 125);
+    padding: 15px;
+    font-family: 'Inconsolata', monospace;
+    /*tres valores debe tener:medida/tipo/color */
+
+
+}
+h2{
+    color: black;
+    text-align: center;
+    padding: 40px;
+    border-radius: 1;
+    font-family: 'Inconsolata', monospace;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(28, 80, 125);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    padding: 40px;
+    border-radius: 2px solid rgb(28, 80, 125);
+}
+
+p{
+    padding: 10px;
+    margin-left: 75px;
+    color: black;
+        
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    display: flex;
+    width: 40%;
+}
+
+
+/**footer contacto**/
+
+/*footer redesSociales*/
+
+footer{
+    background-color:white;
+    padding: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+    justify-items: end;
+}
+
+
+.redesSociales{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+
+}
+
+.pie {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    justify-content: space-between;
+}
+
+footer .registro{
+    text-align: left;}
+    
+.infoContacto{
+    background-color:rgb(28, 80, 125)}
+
+
+
+/**estilo productos**/ 
+
+
+.productos {
+    border: 2px solid rgb(28, 80, 125);
+
+}
+
+.grid{
+    grid-template-areas: 
+    "body body body"
+    "body body body";
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 3repeat(1fr);
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;   
+    padding-left: 80px;
+}
+
+.lab{
+    display: flex;
+
+}
+
+/**********Noticias*******/
+
+
+.noticias1, .noticias2, .noticias3{
+    display: flex;
+    justify-content:right;
+
+}
+
+.pNoticia1{
+    text-align: justify;
+    color:rgb(28, 80, 125) ;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    padding-right: 140px;
+    padding-top: 30px;
+
+}
+
+/*******Contacto***********/
+
+
+.contacto{
+    background-color: #F6F6F6;
+}
+
+.bannerContacto{
+    display: flex;
+    justify-items: center;
+}
+
+.productos{
+    border-radius: 3px solid  rgb(28, 80, 125);
+}
+
+
+
+
+/********Animanaciones*******/
+
+a:hover{
+    -webkit-animation: a 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation:  a 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes a {
+    0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: none;
+            }
+    100% {
+            -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+}
+@keyframes a {
+    0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: none;
+}
+    100% {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+.lab:hover {
+        -webkit-animation: lab 10s linear both;
+                animation: lab 10s linear both;
+}
+
+@-webkit-keyframes lab {
+    0% {
+-webkit-transform: scale(1) translateY(0);
+transform: scale(1) translateY(0);
+-webkit-transform-origin: 50% 16%;
+transform-origin: 50% 16%;
+    }
+    100% {
+-webkit-transform: scale(1.10) translateY(-15px);
+transform: scale(1.10) translateY(-15px);
+-webkit-transform-origin: top;
+transform-origin: top;
+    }
+}
+@keyframes lab {
+    0% {
+-webkit-transform: scale(1) translateY(0);
+transform: scale(1) translateY(0);
+-webkit-transform-origin: 50% 16%;
+transform-origin: 50% 16%;
+    }
+    100% {
+-webkit-transform: scale(1.10) translateY(-15px);
+transform: scale(1.10) translateY(-15px);
+webkit-transform-origin: top;
+transform-origin: top;
+    }
+
+}
+
