@@ -1,0 +1,39 @@
+nav ul li a {
+    margin-top: 60px;
+    display: flex;
+    font-size: 21px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(28, 80, 125);
+    font-family: "Inconsolata", monospace;
+    justify-content: center;
+  }
+
+  .capsule {
+    padding-right: 200px;
+    padding-bottom: 0px;
+  }
+  
+  
+  li {
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    align-items: flex-end;
+  }
+  
+  header {
+    background-color: $fondo-principal;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-family: "Inconsolata", monospace;
+    justify-items: end;
+  }
+
+  

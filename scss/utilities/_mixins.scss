@@ -1,0 +1,6 @@
+@mixin texto ($font-size, $list-style, $justify-content) {
+    font-size: $font-size;
+    list-style: $list-style;
+    justify-content: $justify-content;
+}
+    
