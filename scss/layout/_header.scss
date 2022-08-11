@@ -25,7 +25,8 @@ nav ul li a {
   }
   
   header {
-    background-color: $fondo-principal;
+    background-color: rgb(255,255,255);
+    background-color: linear-gradient(0deg, rgba(255,255,255,1) 79%, rgba(15,170,199,0.8295693277310925) 93%);;
   }
 
   a {
