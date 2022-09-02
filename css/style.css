@@ -378,7 +378,10 @@ p.texto{
 
 .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11{
   display: grid;
+<<<<<<< HEAD
   align-content: center;
+=======
+>>>>>>> 6754c5ee425351a187a44f369617e766e2f77b8a
   text-align: center;
   font-size: larger;
   text-decoration: bold;
@@ -430,6 +433,14 @@ footer{
   grid-area: footer;
 }
 
+<<<<<<< HEAD
+=======
+body{
+  grid-area: body;
+}
+
+
+>>>>>>> 6754c5ee425351a187a44f369617e766e2f77b8a
 @media screen and (max-width:520px ) {
   
   .grillaGeneral{
@@ -438,12 +449,17 @@ footer{
     gap: 10px;
     grid-template-areas: 
     "header"
+<<<<<<< HEAD
     "carrusel"
+=======
+    "body"
+>>>>>>> 6754c5ee425351a187a44f369617e766e2f77b8a
     "footer"
     
 
   }
 }
+<<<<<<< HEAD
 
 .btn-primary{
   background-color:  white;
@@ -451,4 +467,64 @@ footer{
   font-size: 18px;
 
 }
+=======
+@media screen and (max-width:600px ) {
+  
+  body{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas: 
+    "header"
+    "body"
+    "footer"
+
+  }
+
+}
+
+@media screen and (max-width:730px ) {
+  
+  body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header   header"
+    "carrusel carrusel"
+    "footer   footer"
+
+  }
+
+}
+
+@media screen and (max-width:800px ) {
+  
+  body{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas: 
+    "header"
+    "body"
+    "footer"
+
+  }
+
+}
+
+@media screen and (max-width:400px ) {
+  
+  body{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas: 
+    "header"
+    "carrusel"
+    "footer"
+
+  }
+
+}
+
+
+
+>>>>>>> 6754c5ee425351a187a44f369617e766e2f77b8a
   
