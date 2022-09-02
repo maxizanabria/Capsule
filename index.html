@@ -18,12 +18,12 @@
 
 </head>
 
-<body>
+<body class="grillaGeneral">
     <header>
       <nav class="barraNav">
-        <ul class="letras">
+        <ul>
           <li>
-            <img src="./image/Capsule.jpg" alt="Capsule" class="capsule">
+            <img src="./image/capsule.png" alt="Capsule" class="capsule" href="#">
           </li>
           <li>
             <a href="index.html" class="navegador">Inicio</a>
@@ -41,15 +41,12 @@
             <a href="./sections/Contacto.html" class="navegador">Contacto</a>
           </li>
           <li>
-            <img src="./image/microscopio2.jpg" class="navegador" alt="MiniLogo">
+            <img src="./image/microscopio1.png" class="navegador" alt="MiniLogo">
           </li>
         </ul>
       </nav>
     </header>
-
-
-
-    <section>
+    <section class="carrusel" >
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -59,22 +56,22 @@
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
+        <div class="carousel-inner" data-bs-interval="2700">
+          <div class="carousel-item active" data-bs-interval="2700">
             <img src="./image/profesionalesBanner.png" alt="" class="d-block w-100" alt="PrimerBanner">
             <div class="carousel-caption d-none d-md-block">
               <h5></h5>
               <p></p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
+          <div class="carousel-item" data-bs-interval="2700">
             <img src="./image/tecnologiaBanner.png" class="d-block w-100" alt="SegundoBanner">
             <div class="carousel-caption d-none d-md-block">
               <h5></h5>
               <p></p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
+          <div class="carousel-item" data-bs-interval="2700">
             <img src="./image/capsulasBanner.png" class="d-block w-1 w-100" alt="TercerBanner">
             <div class="carousel-caption d-none d-md-block">
               <h5></h5>
@@ -91,19 +88,25 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-
     </section>
 
 
     <footer>
 
       <div class="pie">
-        <a href="https://wa.me/541136047719"><img src="./image/whatsaap.png" alt="whatsaap"></a>
-        <a href="https://www.instagram.com/maxizanabria/"><img src="./image/instagram.png" alt="instagram"></a>
-        <a href="https://www.facebook.com/maxi.zanabria"><img src="./image/facebook.png" alt="facebook"></a>
+        <section>
+        <img src="./image/capsule.png" alt="capsule" height="70px">
+        <p class="texto">Copyright©
+          Capsule S.A. Derechos reservados</p> 
+        </section>
+    
+        <a href="https://wa.me/541136047719" ><img src="./image/whatsaap.png" class="redes" alt="whatsaap"></a>
+        <a href="https://www.instagram.com/maxizanabria/" ><img src="./image/instagram.png" class="redes" alt="instagram"></a>
+        <a href="https://www.facebook.com/maxi.zanabria" ><img src="./image/facebook.png" class="redes"  alt="facebook"></a>
+        <a href="#"><img src="./image/Inicio.png" alt="Inicio"></a>
 
         </a>
+      </div>
     </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
